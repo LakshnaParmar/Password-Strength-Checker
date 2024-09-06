@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main input{
+    width: 300px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.main #output-show{
+    font-size: 15px;
+}
+@media (max-width : 320px) {
+    .main input{
+        width: 260px;
+    } 
+
+    .main #output-show{
+        font-size: 12px;
+    }
+    
+}
